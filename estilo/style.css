@@ -1,0 +1,126 @@
+.cabecalho{
+    min-height: 250px;
+    width: 100%;
+    background-image: linear-gradient(to right,#574AE8,#3EA1DB);
+}
+
+.cabecalho .container-box{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.cabecalho .container-box .blog{
+    color: var(--branca);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 41px;
+}
+
+.cabecalho .container-box .blog p{
+    font-family: var(--fonte-lexend);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cabecalho form{
+    margin-top: 50px;
+    position: relative;
+}
+
+.cabecalho form input{
+    width: 100%;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 40px;
+    font-family: var(--fonte-inter);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--branca);
+}
+
+.cabecalho form input::placeholder{
+    color: var(--branca);
+}
+
+.cabecalho form input::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+.cabecalho form .fa-search{
+    position: absolute;
+    left: 14px;
+    line-height: 60px;
+    cursor: pointer;
+    color: var(--branca);
+    font-size: 20px;
+}
+
+ .container{
+    min-height: 100vh;
+    background: #F3F5F7;
+    padding: 20px 0;
+}
+
+.container .box{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: var(--branca);
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.2);
+}
+
+.container .box .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .box .row span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-lexend);
+    color: var(--cinza-escuro);
+}
+
+.container .box .row i{
+    color: var(--azul);
+}
+
+.container .box h3{
+    font-family: var(--fonte-lexend);
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: var(--cinza-escuro);
+}
+
+.container .box p{
+    line-height: 25px;
+    color: var(18px);
+    font-family: var(--fonte-inter);
+    text-align: justify;
+}
+
+.direitos{
+    background: var(--azul-claro);
+    color: var(--branca);
+    padding: 15px 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--fonte-inter);
+}
+
+
+
+
+
+
+

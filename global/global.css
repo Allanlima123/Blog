@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&family=Lexend+Deca:wght@200;300;400;500;700&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+
+:root{
+    --azul:#574AE8;
+    --azul-escuro:#574AE8;
+    --azul-claro:#3EA1DB;
+    --cinza-escuro:#475461;
+    --cinza:#B6B6B6;
+    --cinza-claro:#F3F5F7;
+    --branca:#fff;
+
+    --fonte-inter:'Inter', sans-serif;
+    --fonte-lexend:'Lexend Deca', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:991px){
+    .container .box{
+        margin:15px;
+    }
+}
